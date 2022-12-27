@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+/******************** REMOVE DEFAULT STYLES ********************/
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+ /******************** SCSS GLOBAL VARIABLES ********************/
+//  Kuda dark theme
+$primaryColor: #40196d;
+$lightBlueColor: #1dcbef;
+$successColor: #48d38a;
+$negativeColor: #f7685b;
+
+// other colors
+$blackColor: #000;
+$textColor: #979797;
+$whiteColor: #fff;
+$whiteAlt: #fff;
+$offWhite: #f9f9f9;
+$offWhiteTrans: rgba(219, 220, 224, 0.3);
+$borderOff: rgba(219, 220, 224, 0.5);
+$offText: rgba(0, 0, 0, 0.5);
+$bgOffset: #f4f4f4;
+$placeHolder: #979797;
+$offBlue: #eff1ff;
+$boxShadow: rgba(64, 25, 109, 0.07);
+$offBlueTran: rgba(223, 227, 255, 0.3);
+$primaryAlt: #40196d;
+$offGreen: rgba(72, 211, 138, 0.5);
+$ctaOffBlue: rgba(64, 25, 109, 0.3);
+$overlay: rgba(64, 25, 109, 0.2);
+$successColorTrans: #dcffec;
+
+$container-width-lg: 80%;
+$container-width-md: 90%;
+
+$transition: all 500ms ease;  /* make sure all transition have a constant effect*/
+
+ /******************** GENERAL STYLE ********************/
+
+body {
+  font-family: "Mulish", "san-serif";
+  font-size: 16px;
+  color: $textColor;
+}
